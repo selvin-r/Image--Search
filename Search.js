@@ -29,7 +29,7 @@ async function searchImges() {
         imageWrapper.classList.add("search-result");
 
         const image = document.createElement("img");
-        image.src = result.urls.small;     // FIXED
+        image.src = result.urls.small;     
         image.alt = result.alt_description;
 
         const imageLink = document.createElement("a");
